@@ -12,7 +12,8 @@ class NavigationTitleView: UIView {
   let devotionalTitle:UILabel = {
     let label = UILabel()
     label.translatesAutoresizingMaskIntoConstraints = false
-    label.font = UIFont.systemFont(ofSize: 16)
+    label.font = UIFont.boldSystemFont(ofSize: 16)
+    label.textAlignment = .center
     label.textColor = .black
     return label
   }()
@@ -21,6 +22,7 @@ class NavigationTitleView: UIView {
     let label = UILabel()
     label.translatesAutoresizingMaskIntoConstraints = false
     label.font = UIFont.systemFont(ofSize: 14)
+    label.textAlignment = .center
     label.textColor = .lightGray
     return label
   }()
@@ -39,9 +41,9 @@ class NavigationTitleView: UIView {
      devotionalTitle.heightAnchor.constraint(equalToConstant: 17).isActive = true
     
     devotionalDate.leftAnchor.constraint(equalTo: leftAnchor).isActive = true
-    devotionalDate.bottomAnchor.constraint(equalTo: topAnchor).isActive = true
+    devotionalDate.bottomAnchor.constraint(equalTo: bottomAnchor,constant: -4).isActive = true
     devotionalDate.rightAnchor.constraint(equalTo: rightAnchor).isActive = true
-    devotionalDate.heightAnchor.constraint(equalToConstant: 17).isActive = true
+    devotionalDate.heightAnchor.constraint(equalToConstant: 15).isActive = true
   }
   required init?(coder aDecoder: NSCoder) {
     fatalError("init(coder:) has not been implemented")
