@@ -25,10 +25,10 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
-        <!--View Controller-->
+        <!--Bible View Controller-->
         <scene sceneID="HTX-xM-kll">
             <objects>
-                <viewController id="FTK-NO-GuC" sceneMemberID="viewController">
+                <viewController id="FTK-NO-GuC" customClass="BibleViewController" customModule="OpenHeavens2017" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Vvn-Od-yg9"/>
                         <viewControllerLayoutGuide type="bottom" id="2NK-xY-77Z"/>
@@ -44,10 +44,10 @@
             </objects>
             <point key="canvasLocation" x="2760.8000000000002" y="269.41529235382313"/>
         </scene>
-        <!--View Controller-->
+        <!--More View Controller-->
         <scene sceneID="vvm-DM-Q1E">
             <objects>
-                <viewController id="8FD-qf-CvS" sceneMemberID="viewController">
+                <viewController id="8FD-qf-CvS" customClass="MoreViewController" customModule="OpenHeavens2017" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Bmr-QG-EvS"/>
                         <viewControllerLayoutGuide type="bottom" id="8kn-bf-W3D"/>
@@ -63,10 +63,10 @@
             </objects>
             <point key="canvasLocation" x="2776.8000000000002" y="2336.5817091454273"/>
         </scene>
-        <!--View Controller-->
+        <!--Bookmarks View Controller-->
         <scene sceneID="tmA-Vy-kDh">
             <objects>
-                <viewController id="Hz3-Z8-A6L" sceneMemberID="viewController">
+                <viewController id="Hz3-Z8-A6L" customClass="BookmarksViewController" customModule="OpenHeavens2017" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dqZ-tj-rn7"/>
                         <viewControllerLayoutGuide type="bottom" id="zPY-3E-CQQ"/>
@@ -82,10 +82,10 @@
             </objects>
             <point key="canvasLocation" x="2760.8000000000002" y="933.28335832083962"/>
         </scene>
-        <!--View Controller-->
+        <!--Radio View Controller-->
         <scene sceneID="2PL-YL-KsX">
             <objects>
-                <viewController id="qlt-85-ry7" sceneMemberID="viewController">
+                <viewController id="qlt-85-ry7" customClass="RadioViewController" customModule="OpenHeavens2017" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="KfE-tL-dP2"/>
                         <viewControllerLayoutGuide type="bottom" id="alF-y7-tVJ"/>
@@ -101,10 +101,10 @@
             </objects>
             <point key="canvasLocation" x="2776.8000000000002" y="1648.4257871064469"/>
         </scene>
-        <!--View Controller-->
+        <!--Devotional View Controller-->
         <scene sceneID="2z3-dk-BpY">
             <objects>
-                <viewController id="bjp-dI-tdU" sceneMemberID="viewController">
+                <viewController id="bjp-dI-tdU" customClass="DevotionalViewController" customModule="OpenHeavens2017" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Kub-7p-a2d"/>
                         <viewControllerLayoutGuide type="bottom" id="3Gx-OR-DCm"/>
